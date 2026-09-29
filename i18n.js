@@ -124,7 +124,6 @@ window.I18N = (function () {
       'footer.features':  'Features',
       'footer.pricing':   'Pricing',
       'footer.integr':    'Integrations',
-      'footer.roadmap':   'Roadmap',
       'footer.company':   'Company',
       'footer.aboutUs':   'About Us',
       'footer.careers':   'Careers',
@@ -140,7 +139,7 @@ window.I18N = (function () {
       'footer.terms':     'Terms of Service',
       'footer.gdpr':      'GDPR',
       'footer.sla':       'SLA Status',
-      'footer.rights':    '© 2024 NovaLeads. All rights reserved.'
+      'footer.rights':    '© 2026 NovaLeads. All rights reserved.'
     },
 
     es: {
@@ -258,7 +257,6 @@ window.I18N = (function () {
       'footer.features':  'Funciones',
       'footer.pricing':   'Precios',
       'footer.integr':    'Integraciones',
-      'footer.roadmap':   'Roadmap',
       'footer.company':   'Empresa',
       'footer.aboutUs':   'Sobre nosotros',
       'footer.careers':   'Empleo',
@@ -274,7 +272,7 @@ window.I18N = (function () {
       'footer.terms':     'Términos del servicio',
       'footer.gdpr':      'RGPD',
       'footer.sla':       'Estado del SLA',
-      'footer.rights':    '© 2024 NovaLeads. Todos los derechos reservados.'
+      'footer.rights':    '© 2026 NovaLeads. Todos los derechos reservados.'
     }
   };
 
