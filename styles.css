@@ -545,7 +545,7 @@ p { margin: 0; }
 
 .footer__grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.6fr) repeat(4, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
   gap: var(--sp-48) var(--sp-32);
 }
 .footer__about { margin-top: var(--sp-24); font-size: 14.5px; max-width: 34ch; line-height: 1.7; }
