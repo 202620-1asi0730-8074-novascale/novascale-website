@@ -41,8 +41,8 @@
     </div>
 
     <div class="nav__actions">
-      <a class="nav__signin" href="https://novaleads.onrender.com" data-i18n="nav.signin">Sign In</a>
-      <a class="btn btn--primary btn--sm" href="https://novaleads.onrender.com" data-i18n="nav.cta">Start for Free</a>
+      <a class="nav__signin" href="https://novaleads.onrender.com/login" data-i18n="nav.signin">Sign In</a>
+      <a class="btn btn--primary btn--sm" href="https://novaleads.onrender.com/signup" data-i18n="nav.cta">Sign Up</a>
     </div>
 
     <button class="nav__burger" id="burger" type="button" aria-expanded="false" aria-controls="drawer" data-i18n-attr="aria-label:nav.menuOpen" aria-label="Open menu">
@@ -58,10 +58,10 @@
     <li><a href="#velocity" data-i18n="nav.platform">Platform</a></li>
     <li><a href="#customers" data-i18n="nav.customers">Customers</a></li>
     <li><a href="#pricing" data-i18n="nav.pricing">Pricing</a></li>
-    <li><a href="https://novaleads.onrender.com" data-i18n="nav.signin">Sign In</a></li>
+    <li><a href="https://novaleads.onrender.com/login" data-i18n="nav.signin">Sign In</a></li>
   </ul>
   <div class="drawer__actions">
-    <a class="btn btn--primary" href="https://novaleads.onrender.com" data-i18n="nav.cta">Start for Free</a>
+    <a class="btn btn--primary" href="https://novaleads.onrender.com/signup" data-i18n="nav.cta">Sign Up</a>
     <a class="btn btn--ghost" href="https://novaleads.onrender.com" data-i18n="nav.demo">Book a Demo</a>
   </div>
 </nav>
@@ -82,7 +82,7 @@
         </p>
 
         <div class="hero__cta">
-          <a class="btn btn--primary" href="https://novaleads.onrender.com">
+          <a class="btn btn--primary" href="https://novaleads.onrender.com/signup">
             <span data-i18n="hero.ctaPrimary">Start for Free</span>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
@@ -273,7 +273,7 @@
             <li><span class="plan__check" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg></span><span data-i18n="pricing.p1.f5">Email support</span></li>
           </ul>
 
-          <a class="btn btn--ghost plan__cta" href="https://novaleads.onrender.com" data-i18n="pricing.p1.cta">Get Started</a>
+          <a class="btn btn--ghost plan__cta" href="https://novaleads.onrender.com/signup" data-i18n="pricing.p1.cta">Get Started</a>
         </article>
 
         <article class="plan plan--featured">
@@ -297,7 +297,7 @@
             <li><span class="plan__check" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg></span><span data-i18n="pricing.p2.f7">Priority support</span></li>
           </ul>
 
-          <a class="btn btn--primary plan__cta" href="https://novaleads.onrender.com" data-i18n="pricing.p2.cta">Start 14-Day Trial</a>
+          <a class="btn btn--primary plan__cta" href="https://novaleads.onrender.com/signup" data-i18n="pricing.p2.cta">Start 14-Day Trial</a>
         </article>
 
         <article class="plan">
@@ -340,13 +340,42 @@
     </div>
   </section>
 
+  <section class="section" id="videos" aria-labelledby="videos-title">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow" data-i18n="videos.eyebrow">Product and team</p>
+        <h2 class="section__title" id="videos-title" data-i18n="videos.title">Meet NovaLeads and the people behind it</h2>
+      </div>
+
+      <div class="videos">
+        <article class="video" id="about-product">
+          <h3 data-i18n="videos.product.title">About the Product</h3>
+          <p data-i18n="videos.product.description">See how NovaLeads brings contacts, opportunities and conversations together in one workspace.</p>
+          <div class="video__player">
+            <iframe src="https://www.youtube-nocookie.com/embed/Sn5wpiUlpns" width="560" height="315" data-i18n-attr="title:videos.product.player" title="NovaLeads product video" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <a class="video__link" href="https://youtu.be/Sn5wpiUlpns" target="_blank" rel="noopener noreferrer" data-i18n="videos.watch">Watch on YouTube</a>
+        </article>
+
+        <article class="video" id="about-team">
+          <h3 data-i18n="videos.team.title">About the Team</h3>
+          <p data-i18n="videos.team.description">Meet NovaScale and learn about the teamwork and lessons behind NovaLeads.</p>
+          <div class="video__player">
+            <iframe src="https://www.youtube-nocookie.com/embed/i84HaHUTpFA" width="560" height="315" data-i18n-attr="title:videos.team.player" title="NovaScale team video" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <a class="video__link" href="https://youtu.be/i84HaHUTpFA" target="_blank" rel="noopener noreferrer" data-i18n="videos.watch">Watch on YouTube</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
   <!-- CTA Section -->
   <section class="cta" id="get-started">
     <div class="container">
       <h2 data-i18n="cta.title">Ready to supercharge your sales?</h2>
       <p data-i18n="cta.lead">Join thousands of sales teams automating raw workflows, managing active WhatsApp threads, and scaling deal pipelines.</p>
       <div class="cta__actions">
-        <a class="btn btn--light" href="https://novaleads.onrender.com" data-i18n="cta.primary">Get Started for Free</a>
+        <a class="btn btn--light" href="https://novaleads.onrender.com/signup" data-i18n="cta.primary">Get Started for Free</a>
       </div>
     </div>
   </section>
@@ -379,46 +408,25 @@
       <div class="footer__col">
         <h4 data-i18n="footer.company">Company</h4>
         <ul>
-          <li><span data-i18n="footer.aboutUs">About Us</span></li>
-          <li><span data-i18n="footer.careers">Careers</span></li>
-          <li><span data-i18n="footer.press">Press Kit</span></li>
-          <li><span data-i18n="footer.contact">Contact</span></li>
+          <li><a href="#about-team" data-i18n="footer.aboutUs">About Us</a></li>
         </ul>
       </div>
 
       <div class="footer__col">
         <h4 data-i18n="footer.resources">Resources</h4>
         <ul>
-          <li><span data-i18n="footer.docs">Documentation</span></li>
-          <li><span data-i18n="footer.community">Community</span></li>
-          <li><span data-i18n="footer.guides">Video Guides</span></li>
-          <li><span data-i18n="footer.api">API Specs</span></li>
+          <li><a href="#about-product" data-i18n="footer.guides">Video Guides</a></li>
         </ul>
       </div>
 
-      <div class="footer__col">
-        <h4 data-i18n="footer.legal">Legal</h4>
-        <ul>
-          <li><span data-i18n="footer.privacy">Privacy Policy</span></li>
-          <li><span data-i18n="footer.terms">Terms of Service</span></li>
-          <li><span data-i18n="footer.gdpr">GDPR</span></li>
-          <li><span data-i18n="footer.sla">SLA Status</span></li>
-        </ul>
-      </div>
     </div>
 
     <div class="footer__bottom">
       <span data-i18n="footer.rights">&copy; 2026 NovaLeads. All rights reserved.</span>
       <div class="footer__social">
-        <span aria-label="Twitter">
-          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 5.9c-.7.3-1.5.5-2.4.6.9-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1a4.1 4.1 0 0 0-7 3.7A11.6 11.6 0 0 1 3.4 4.6a4.1 4.1 0 0 0 1.3 5.5c-.7 0-1.3-.2-1.9-.5 0 2 1.4 3.7 3.3 4.1-.6.2-1.2.2-1.9.1a4.1 4.1 0 0 0 3.8 2.9A8.2 8.2 0 0 1 2 18.4a11.6 11.6 0 0 0 6.3 1.8c7.5 0 11.7-6.3 11.7-11.7v-.5c.8-.6 1.5-1.3 2-2.1z"/></svg>
-        </span>
         <a href="https://github.com/202620-1asi0730-8074-novascale" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.3-3.4-1.3-.4-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.6-1.4-2.2-.2-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.6 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.3.2 2.3.1 2.6.6.7 1 1.6 1 2.7 0 3.9-2.4 4.8-4.6 5 .4.3.7.9.7 1.9v2.8c0 .3.2.6.7.5A10 10 0 0 0 12 2z"/></svg>
         </a>
-        <span aria-label="LinkedIn">
-          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.9 8.4H3.6V20h3.3zM5.3 3.5a1.9 1.9 0 1 0 0 3.8 1.9 1.9 0 0 0 0-3.8zM20.4 13.1c0-3-1.6-4.4-3.8-4.4-1.7 0-2.5.9-2.9 1.6V8.4H10.4V20h3.3v-6.3c0-1.4.6-2.2 1.8-2.2s1.6.8 1.6 2.2V20h3.3z"/></svg>
-        </span>
       </div>
     </div>
   </div>
