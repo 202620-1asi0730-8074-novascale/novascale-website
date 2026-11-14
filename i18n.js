@@ -113,6 +113,16 @@ window.I18N = (function () {
       'pricing.help':     'Need help? Chat with sales',
 
       // CTA
+      'videos.eyebrow':                   'Product and team',
+      'videos.title':                     'Meet NovaLeads and the people behind it',
+      'videos.product.title':             'About the Product',
+      'videos.product.description':       'See how NovaLeads brings contacts, opportunities and conversations together in one workspace.',
+      'videos.product.player':            'NovaLeads product video',
+      'videos.team.title':                'About the Team',
+      'videos.team.description':          'Meet NovaScale and learn about the teamwork and lessons behind NovaLeads.',
+      'videos.team.player':               'NovaScale team video',
+      'videos.watch':                     'Watch on YouTube',
+
       'cta.title':        'Ready to supercharge your sales?',
       'cta.lead':         'Join thousands of sales teams automating raw workflows, managing active WhatsApp threads, and scaling deal pipelines.',
       'cta.primary':      'Get Started for Free',
@@ -246,6 +256,16 @@ window.I18N = (function () {
       'pricing.help':     '¿Necesitas ayuda? Habla con ventas',
 
       // CTA
+      'videos.eyebrow':                   'Producto y equipo',
+      'videos.title':                     'Conoce NovaLeads y al equipo que lo hace posible',
+      'videos.product.title':             'Conoce el producto',
+      'videos.product.description':       'Descubre cómo NovaLeads reúne contactos, oportunidades y conversaciones en un solo espacio de trabajo.',
+      'videos.product.player':            'Video del producto NovaLeads',
+      'videos.team.title':                'Conoce al equipo',
+      'videos.team.description':          'Conoce a NovaScale y descubre el trabajo en equipo y los aprendizajes detrás de NovaLeads.',
+      'videos.team.player':               'Video del equipo NovaScale',
+      'videos.watch':                     'Ver en YouTube',
+
       'cta.title':        '¿Listo para impulsar tus ventas?',
       'cta.lead':         'Únete a miles de equipos de ventas que automatizan su trabajo, gestionan sus conversaciones de WhatsApp y escalan sus pipelines.',
       'cta.primary':      'Comienza gratis',
